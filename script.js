@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name OmegleSkipper
-// @description Skips people who lead with "M" or similar on Omegle for the sake of good conversation. Also automatically says hello if you enable that.
-// @copyright 2020, Felix Mattick (https://kognise.dev/)
-// @homepageURL https://github.com/kognise/omegle-skipper
-// @supportURL https://github.com/kognise/omegle-skipper/issues
-// @contributionURL https://github.com/kognise/omegle-skipper
-// @updateURL https://openuserjs.org/meta/kognise/OmegleSkipper.meta.js
-// @author kognise
-// @version 0.1.0
-// ==/UserScript==
-
 // Please excuse my shit code, I made this at 1am.
 const firstMessagePath = 'body > div.chatbox3 > div > div > div.logwrapper > div.logbox > div > div:nth-child(2) > p > span'
 const secondMessagePath = 'body > div.chatbox3 > div > div > div.logwrapper > div.logbox > div > div:nth-child(3) > p > span'
